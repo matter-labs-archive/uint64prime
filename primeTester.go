@@ -139,9 +139,9 @@ func IsPrime(n uint64) bool {
 			return false
 		}
 	}
-	if n < 2627641 {
-		return true
-	}
+	// if n < 2627641 {
+	// 	return true
+	// }
 	// Next step, SPRP tests
 	//
 	// Thresholds from Sloan sequence A014233
